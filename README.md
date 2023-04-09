@@ -18,7 +18,7 @@ Our binoculars come in a variety of magnifications and lens sizes to suit your n
 
 ## About Us
 
-Optivar sweden. 
+Optivar Sweden. 
 
 tel: +46 700815942
 
