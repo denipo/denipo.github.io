@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Optivar - High-End optiska enheter och mikroskop för fågelskådare, vandrare, jägare, utomhussportaktiviteter</title>
+    <title>Optivar - High-End Optical Devices and Microscopes</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Favicon -->
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Improved Typography */
             margin: 0;
             padding: 0;
             line-height: 1.6;
+            color: #333; /* Consistent color scheme */
+            background-color: #f4f4f4; /* Light background color */
         }
         .container {
-            width: 80%;
+            width: 85%;
+            max-width: 1200px; /* Responsive max-width */
             margin: auto;
             overflow: hidden;
         }
         header {
-            background: #333;
+            background: #005a87; /* Consistent color scheme */
             color: #fff;
             padding-top: 30px;
             min-height: 70px;
@@ -24,14 +28,14 @@
         .carousel-container {
             position: relative;
             width: 100%;
+            margin: 20px 0; /* Added white space */
         }
         .carousel img {
             width: 100%;
             height: auto;
             display: none;
-            max-width: 800px; /* Maximum width of the images */
-            margin: 0 auto; /* Center the images */
-            object-fit: contain; /* Maintain aspect ratio without stretching */
+            max-width: 800px;
+            margin: 0 auto;
         }
         .carousel-control {
             position: absolute;
@@ -50,18 +54,18 @@
         .next { right: 10px; }
         .about {
             margin: 40px 0;
+            padding: 20px; /* Added white space */
+            background-color: #fff; /* Clean layout with white space */
         }
         .footer {
-            background: #333;
+            background: #005a87; /* Consistent color scheme */
             color: #fff;
             text-align: center;
             padding: 10px 0;
         }
-
-        /* Media query for screens wider than 768px */
         @media (min-width: 768px) {
             .carousel img {
-                max-height: 500px; /* Example max height, adjust as needed */
+                max-height: 500px;
             }
         }
     </style>
@@ -70,7 +74,7 @@
     <header>
         <div class="container">
             <h1>Optivar</h1>
-            <p>Optivar - High-End optiska enheter och mikroskop för fågelskådare, vandrare, jägare, utomhussportaktiviteter</p>
+            <p>Leading Provider of High-End Optical Devices and Microscopes</p> <!-- Professional Copywriting -->
         </div>
     </header>
 
@@ -92,14 +96,15 @@
     <div class="container">
         <section class="about">
             <h2>About Us</h2>
-            <p>Optivar erbjuder kikare och mikroskop av hög kvalitet från världens ledande varumärken. Oavsett om du är en fågelskådare eller en mikroskophobbyist inom biologi, har vi den perfekta produkten för dig</p>
+            <p>Optivar erbjuder kikare och mikroskop av hög kvalitet från världens ledande varumärken. Oavsett om du är en fågelskådare eller en mikroskophobbyist inom biologi, har vi den perfekta produkten för dig.</p>
             <p>Våra kikare, kikare och mörkerseende kommer i en mängd olika förstoringar och linsstorlekar för att passa dina behov, oavsett om du letar efter ett kompakt par för resor eller ett kraftfullt set för stjärnskådning eller ett hjälmmonterat set för airsoft eller paintball utomhusspel. Samtidigt är våra mikroskop perfekta för att studera prover på nära håll.</p>
             <p>Optivar Sweden.<br>tel: +46 700815942</p>
         </section>
     </div>
 
     <footer class="footer">
-        <p>Tack för att du valde oss för dina optiska och mikroskopbehov.</p>
+        <p>&copy; 2024 Optivar - All Rights Reserved</p> <!-- Footer Information -->
+        <p>Contact us at info@optivar.com | +46 700815942</p> <!-- Footer Information -->
     </footer>
 
     <script>
