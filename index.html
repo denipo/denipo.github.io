@@ -81,13 +81,13 @@
     <div class="carousel-container">
         <div class="carousel">
             <img src="https://i.imgur.com/Z4R4skw.jpg" alt="Product 1" style="display:block;">
-            <img src="https://i.imgur.com/KxBaj11.jpg" alt="Product 2">
-            <img src="https://i.imgur.com/xibjKhz.png" alt="Product 3">
-            <img src="https://i.imgur.com/K3bKNiJ.jpg" alt="Product 4">
-            <img src="https://i.imgur.com/NJF2FOz.jpg" alt="Product 5">
-            <img src="https://i.imgur.com/LDF1UMd.png" alt="Product 6">
-            <img src="https://i.imgur.com/yoGWcUS.jpg" alt="Product 7">
-            <img src="https://i.imgur.com/h17GAxI.jpg" alt="Product 8">
+            <img src="https://i.imgur.com/xibjKhz.png" alt="Product 2">
+            <img src="https://i.imgur.com/K3bKNiJ.jpg" alt="Product 3">
+            <img src="https://i.imgur.com/NJF2FOz.jpg" alt="Product 4">
+            <img src="https://i.imgur.com/LDF1UMd.png" alt="Product 5">
+            <img src="https://i.imgur.com/yoGWcUS.jpg" alt="Product 6">
+            <img src="https://i.imgur.com/RVB5ayz.jpg" alt="Product 7">
+            
         </div>
         <div class="carousel-control prev" onclick="changeImage(-1)">&#10094;</div>
         <div class="carousel-control next" onclick="changeImage(1)">&#10095;</div>
@@ -104,7 +104,7 @@
 
     <footer class="footer">
         <p>&copy; 2024 Optivar - All Rights Reserved</p> <!-- Footer Information -->
-        <p>Contact us at info@optivar.com | +46 700815942</p> <!-- Footer Information -->
+        <p>Contact us at info@optivar.se | +46 700815942</p> <!-- Footer Information -->
     </footer>
 
     <script>
