@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Optivar - High-End Optical Devices and Microscopes</title>
+    <title>OptiVar - High-End Optical Devices and Microscopes</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Favicon -->
     <style>
         body {
@@ -73,7 +73,7 @@
 <body>
     <header>
         <div class="container">
-            <h1>Optivar</h1>
+            <h1>OptiVar</h1>
             <p>Leverantör av optisk utrustning för hobby, fotografi, sport och fritid</p> <!-- Professional Copywriting -->
         </div>
     </header>
@@ -85,7 +85,7 @@
             <img src="https://i.imgur.com/K3bKNiJ.jpg" alt="Product 3">
             <img src="https://i.imgur.com/NJF2FOz.jpg" alt="Product 4">
             <img src="https://i.imgur.com/LDF1UMd.png" alt="Product 5">
-            <img src="https://i.imgur.com/TLpAOMB.jpg" alt="Product 6">
+            <img src="https://i.imgur.com/TXtLzNb.jpg" alt="Product 6">
             <img src="https://i.imgur.com/RVB5ayz.jpg" alt="Product 7">
             
         </div>
@@ -95,10 +95,10 @@
 
     <div class="container">
         <section class="about">
-            <h2>Om os</h2>
+            <h2>Om oss</h2>
             <p>Optivar erbjuder kikare och mikroskop av hög kvalitet från världens ledande varumärken. Oavsett om du är en fågelskådare eller en mikroskophobbyist inom biologi, har vi den perfekta produkten för dig.</p>
             <p>Våra kikare, kikare och mörkerseende kommer i en mängd olika förstoringar och linsstorlekar för att passa dina behov, oavsett om du letar efter ett kompakt par för resor eller ett kraftfullt set för stjärnskådning eller ett hjälmmonterat set för airsoft eller paintball utomhusspel. Samtidigt är våra mikroskop perfekta för att studera prover på nära håll.</p>
-            <p>Optivar Sweden.<br>tel: +46 700815942</p>
+            <p>Optivar Sverige.<br>tel: +46 700815942</p>
         </section>
     </div>
 
