@@ -98,12 +98,12 @@
             <h2>Om oss</h2>
             <p>Optivar erbjuder kikare och mikroskop av hög kvalitet från världens ledande varumärken. Oavsett om du är en fågelskådare eller en mikroskophobbyist inom biologi, har vi den perfekta produkten för dig.</p>
             <p>Våra kikare, kikare och mörkerseende kommer i en mängd olika förstoringar och linsstorlekar för att passa dina behov, oavsett om du letar efter ett kompakt par för resor eller ett kraftfullt set för stjärnskådning eller ett hjälmmonterat set för airsoft eller paintball utomhusspel. Samtidigt är våra mikroskop perfekta för att studera prover på nära håll.</p>
-            <p>Optivar Sverige.<br>tel: +46 700815942</p>
+            
         </section>
     </div>
 
     <footer class="footer">
-        <p>&copy; 2024 Optivar - All Rights Reserved</p> <!-- Footer Information -->
+        <p>&copy; 2023-2024 Optivar - All Rights Reserved</p> <!-- Footer Information -->
         <p>Contact us at info@optivar.se | +46 700815942</p> <!-- Footer Information -->
     </footer>
 
