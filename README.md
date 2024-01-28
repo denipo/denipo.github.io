@@ -68,7 +68,7 @@
     <header>
         <div class="container">
             <h1>Optivar</h1>
-            <p>High-End Optical Devices and Microscopes</p>
+            <p>Optivar - High-End optiska enheter och mikroskop för fågelskådare, vandrare, jägare, utomhussportaktiviteter</p>
         </div>
     </header>
 
