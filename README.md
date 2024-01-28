@@ -30,10 +30,11 @@
         .carousel {
             width: 100%;
             margin: auto;
-            overflow: hidden; /* Clearfix */
+            overflow: hidden;
         }
         .carousel img {
             width: 100%;
+            height: auto;
             display: block;
         }
         .about {
@@ -56,11 +57,14 @@
     </header>
 
     <section class="carousel">
-        <!-- Simple Carousel Here -->
         <img src="https://i.imgur.com/GdKGn49.jpg" alt="Product 1">
-        <img src="https://i.imgur.com/v8B9vhD.png" alt="Product 2">
-        <img src="https://i.imgur.com/xibjKhz.png" alt="Product 3">
-        <!-- Add more images as needed -->
+        <img src="https://i.imgur.com/v8B9vhD.png" alt="Product 2" style="display:none;">
+        <img src="https://i.imgur.com/xibjKhz.png" alt="Product 3" style="display:none;">
+        <img src="https://i.imgur.com/NuBt7z4.png" alt="Product 4" style="display:none;">
+        <img src="https://i.imgur.com/QnuffLP.jpg" alt="Product 5" style="display:none;">
+        <img src="https://i.imgur.com/Yetdlxb.png" alt="Product 6" style="display:none;">
+        <img src="https://i.imgur.com/elOdTZ0.jpg" alt="Product 7" style="display:none;">
+        <img src="https://i.imgur.com/CX4021r.jpg" alt="Product 8" style="display:none;">
     </section>
 
     <div class="container">
@@ -75,5 +79,17 @@
     <footer class="footer">
         <p>Thank you for choosing us for your binoculars and microscopes needs.</p>
     </footer>
+
+    <script>
+        let currentImageIndex = 0;
+        const images = document.querySelectorAll('.carousel img');
+        const totalImages = images.length;
+
+        setInterval(() => {
+            images[currentImageIndex].style.display = 'none';
+            currentImageIndex = (currentImageIndex + 1) % totalImages;
+            images[currentImageIndex].style.display = 'block';
+        }, 3000); // Change image every 3 seconds
+    </script>
 </body>
 </html>
