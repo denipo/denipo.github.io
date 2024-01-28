@@ -29,6 +29,9 @@
             width: 100%;
             height: auto;
             display: none;
+            max-width: 800px; /* Maximum width of the images */
+            margin: 0 auto; /* Center the images */
+            object-fit: contain; /* Maintain aspect ratio without stretching */
         }
         .carousel-control {
             position: absolute;
@@ -59,7 +62,6 @@
         @media (min-width: 768px) {
             .carousel img {
                 max-height: 500px; /* Example max height, adjust as needed */
-                object-fit: cover; /* Ensures image covers the area, cropping if necessary */
             }
         }
     </style>
