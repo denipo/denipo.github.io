@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Optivar - High-End Optical Devices and Microscopes</title>
+    <title>Optivar - High-End optiska enheter och mikroskop för fågelskådare, vandrare, jägare, utomhussportaktiviteter</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -90,14 +90,14 @@
     <div class="container">
         <section class="about">
             <h2>About Us</h2>
-            <p>Optivar offers high-quality binoculars and microscopes from the world's leading brands. Whether you're a birdwatcher or a microscope hobbyist of biology, we have the perfect product for you.</p>
-            <p>Our binoculars come in a variety of magnifications and lens sizes to suit your needs, whether you're looking for a compact pair for traveling or a powerful set for stargazing. Meanwhile, our microscopes are perfect for studying specimens up close.</p>
+            <p>Optivar erbjuder kikare och mikroskop av hög kvalitet från världens ledande varumärken. Oavsett om du är en fågelskådare eller en mikroskophobbyist inom biologi, har vi den perfekta produkten för dig</p>
+            <p>Våra kikare, kikare och mörkerseende kommer i en mängd olika förstoringar och linsstorlekar för att passa dina behov, oavsett om du letar efter ett kompakt par för resor eller ett kraftfullt set för stjärnskådning eller ett hjälmmonterat set för airsoft eller paintball utomhusspel. Samtidigt är våra mikroskop perfekta för att studera prover på nära håll.</p>
             <p>Optivar Sweden.<br>tel: +46 700815942</p>
         </section>
     </div>
 
     <footer class="footer">
-        <p>Thank you for choosing us for your binoculars and microscopes needs.</p>
+        <p>Tack för att du valde oss för dina optiska och mikroskopbehov.</p>
     </footer>
 
     <script>
