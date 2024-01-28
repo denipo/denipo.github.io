@@ -21,22 +21,30 @@
             min-height: 70px;
             border-bottom: #bbb 1px solid;
         }
-        header a {
-            color: #fff;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 16px;
-        }
-        .carousel {
+        .carousel-container {
+            position: relative;
             width: 100%;
-            margin: auto;
-            overflow: hidden;
         }
         .carousel img {
             width: 100%;
             height: auto;
-            display: block;
+            display: none;
         }
+        .carousel-control {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            font-size: 24px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+        }
+        .prev, .next {
+            padding: 0 15px;
+        }
+        .prev { left: 10px; }
+        .next { right: 10px; }
         .about {
             margin: 40px 0;
         }
@@ -45,6 +53,14 @@
             color: #fff;
             text-align: center;
             padding: 10px 0;
+        }
+
+        /* Media query for screens wider than 768px */
+        @media (min-width: 768px) {
+            .carousel img {
+                max-height: 500px; /* Example max height, adjust as needed */
+                object-fit: cover; /* Ensures image covers the area, cropping if necessary */
+            }
         }
     </style>
 </head>
@@ -56,16 +72,20 @@
         </div>
     </header>
 
-    <section class="carousel">
-        <img src="https://i.imgur.com/GdKGn49.jpg" alt="Product 1">
-        <img src="https://i.imgur.com/v8B9vhD.png" alt="Product 2" style="display:none;">
-        <img src="https://i.imgur.com/xibjKhz.png" alt="Product 3" style="display:none;">
-        <img src="https://i.imgur.com/NuBt7z4.png" alt="Product 4" style="display:none;">
-        <img src="https://i.imgur.com/QnuffLP.jpg" alt="Product 5" style="display:none;">
-        <img src="https://i.imgur.com/Yetdlxb.png" alt="Product 6" style="display:none;">
-        <img src="https://i.imgur.com/elOdTZ0.jpg" alt="Product 7" style="display:none;">
-        <img src="https://i.imgur.com/CX4021r.jpg" alt="Product 8" style="display:none;">
-    </section>
+    <div class="carousel-container">
+        <div class="carousel">
+            <img src="https://i.imgur.com/GdKGn49.jpg" alt="Product 1" style="display:block;">
+            <img src="https://i.imgur.com/v8B9vhD.png" alt="Product 2">
+            <img src="https://i.imgur.com/xibjKhz.png" alt="Product 3">
+            <img src="https://i.imgur.com/NuBt7z4.png" alt="Product 4">
+            <img src="https://i.imgur.com/QnuffLP.jpg" alt="Product 5">
+            <img src="https://i.imgur.com/Yetdlxb.png" alt="Product 6">
+            <img src="https://i.imgur.com/elOdTZ0.jpg" alt="Product 7">
+            <img src="https://i.imgur.com/CX4021r.jpg" alt="Product 8">
+        </div>
+        <div class="carousel-control prev" onclick="changeImage(-1)">&#10094;</div>
+        <div class="carousel-control next" onclick="changeImage(1)">&#10095;</div>
+    </div>
 
     <div class="container">
         <section class="about">
@@ -85,11 +105,14 @@
         const images = document.querySelectorAll('.carousel img');
         const totalImages = images.length;
 
-        setInterval(() => {
+        function changeImage(step) {
             images[currentImageIndex].style.display = 'none';
-            currentImageIndex = (currentImageIndex + 1) % totalImages;
+            currentImageIndex = (currentImageIndex + step + totalImages) % totalImages;
             images[currentImageIndex].style.display = 'block';
-        }, 3000); // Change image every 3 seconds
+        }
+
+        // Initially display the first image
+        images[0].style.display = 'block';
     </script>
 </body>
 </html>
