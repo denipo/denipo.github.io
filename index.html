@@ -104,7 +104,7 @@
 
     <footer class="footer">
         <p>&copy; 2023-2024 Optivar - All Rights Reserved</p> <!-- Footer Information -->
-        <p>Contact us at info@optivar.se | +46 700815942</p> <!-- Footer Information -->
+        <p>Kontakt info@optivar.se | +46 700815942</p> <!-- Footer Information -->
     </footer>
 
     <script>
