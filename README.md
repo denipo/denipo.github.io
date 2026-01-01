@@ -103,7 +103,7 @@
     </div>
 
     <footer class="footer">
-        <p>&copy; 2023-2025 Optivar - All Rights Reserved</p> <!-- Footer Information -->
+        <p>&copy; 2023-2026 Optivar - All Rights Reserved</p> <!-- Footer Information -->
         <p>Kontakt info@optivar.se</p> <!-- Footer Information -->
     </footer>
 
